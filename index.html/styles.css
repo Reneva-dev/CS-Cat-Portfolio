@@ -1,14 +1,17 @@
-body {
-    background-color: lightblue;
+.project-name{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
 }
-.project-name {
-    padding: 50px;
-    border-radius: 20px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 300px;
-    font-family: Arial;
-    font-size: 24px;
-    font-weight: normal;
+
+.item{
+    text-align: center;
+    width: 200px;
+}
+
+.item img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
 }
