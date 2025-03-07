@@ -1,3 +1,15 @@
 body {
     background-color: lightblue;
 }
+.project-name {
+    background-color: lightgray;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 90px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: normal;
+}
