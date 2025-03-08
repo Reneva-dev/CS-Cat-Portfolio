@@ -10,7 +10,7 @@ body{
     max-width: 1200px;
     gap: 20px; 
     padding: 20px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 8px;
 }
 
@@ -31,9 +31,7 @@ body{
 }
 
 .nav-menu{
-    background-color: White;
-    border: 2px solid pink;
-    border-radius: 8px;
+    background-color: pink;
 }
 
 .nav-menu a:hover{
