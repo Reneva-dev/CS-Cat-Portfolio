@@ -3,56 +3,28 @@ body{
    font-family: Arial; 
 }
 
-
-
-.cat-grid{
-    display: grid;
-    grid-template-columns: repeat (auto-fit, minmax (250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+.sections-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     max-width: 1200px;
-    margin: 0 auto;
-    background: white;
-    box-shadow: 0 4px 8px rgba (0, 0, 0, 0.1);
+    gap: 20px; 
+    padding: 20px;
+    border: 2px solid black;
     border-radius: 8px;
-    font-weight: bold;
 }
 
-.project-name{
-    display: inline-block;
-    background: dark brown;
-    border: 1px solid pink;
+.project-name, .date, .description {
+    border: 1px solid whitesmoke;
     border-radius: 8px;
-    overflow: hidden;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba (0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
-    padding: 15px
-}
-
-.date{
-    display: inline-block;
-    background: dark brown;
-    border: 1px solid pink;
-    border-radius: 8px;
-    overflow: hidden;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
-    padding: 15px
+    padding: 15px;
+    width: 100%;
+    min-width: 250px; 
 }
-
-.description{
-    display: inline-block;
-    background: dark brown;
-    border: 1px solid pink;
-    border-radius: 8px;
-    overflow: hidden;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba (0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
-    padding: 15px
-}
+ 
 .project-name:hover, .date:hover, .description:hover{
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
